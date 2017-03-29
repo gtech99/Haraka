@@ -54,8 +54,8 @@ exports.add_headers = {
     'adds a header to a message with positive score': function (test) {
         test.expect(3);
         var test_data = {
-            score: 1.1,
             default: {
+                score: 1.1,
                 FOO: {
                     name: 'FOO',
                     score: 0.100000,
